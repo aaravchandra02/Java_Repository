@@ -51,6 +51,17 @@ class QuickStart {
         System.out.println(names[0] + " is " + ages[0] + " years old.");
         System.out.println("His name contains " + names[0].length() + " letters.");
         System.out.println(names.length);
-
+        System.out.println("The COmplete lst of names is:");
+        int i = 0;
+        int l = names.length;
+        while (i < l) {
+            System.out.println(names[i]);
+            i++;
+        }
+        // for-each loop
+        for (int j : ages) {
+            System.out.println(j);
+        }
+        // other loops being do-while and for loop
     }
 }
