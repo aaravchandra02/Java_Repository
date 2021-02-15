@@ -5,15 +5,18 @@ class QuickStart {
     static double b = 1.01;
     boolean c = true;
     char d = 'a';
+    // Encapsulation
     private String name;
 
     // This is a constant (due to keyword 'final') changes can't be made.
     final int NUMBER_OF_MONTHS = 12;
 
+    // Encapsulation
     public String getName() {
         return name;
     }
 
+    // Encapsulation
     public void setName(String name) {
         this.name = name;
     }
