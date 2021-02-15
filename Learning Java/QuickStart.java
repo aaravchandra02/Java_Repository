@@ -1,7 +1,8 @@
 
 class QuickStart {
     String firstName = "Hello";
-    static int a = 10;
+    // now this is available without creating thi class's instance.
+    public static int a = 10;
     static double b = 1.01;
     boolean c = true;
     char d = 'a';
@@ -91,6 +92,16 @@ class QuickStart {
 }
 
 class Eg {
+    //
+    void main() {
+        QuickStart example = new QuickStart("John");
+        /*
+         * Notice that didn't use any instance of QuickStart but still we were able to
+         * access the static variobale as static variables/methods belongs to the class
+         * and not to any particular object.
+         */
+        System.out.println(QuickStart.a);
+    }
     // Creating an object
-    QuickStart example = new QuickStart("John");
+
 }
