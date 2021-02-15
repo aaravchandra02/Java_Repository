@@ -11,6 +11,11 @@ class QuickStart {
     // This is a constant (due to keyword 'final') changes can't be made.
     final int NUMBER_OF_MONTHS = 12;
 
+    // constructor for this class - using concept on method overloading
+    public QuickStart(String inp) {
+        setName(inp);
+    }
+
     // Encapsulation
     public String getName() {
         return name;
@@ -83,4 +88,9 @@ class QuickStart {
         }
         // other loops being do-while and for loop
     }
+}
+
+class Eg {
+    // Creating an object
+    QuickStart example = new QuickStart("John");
 }
