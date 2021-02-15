@@ -24,6 +24,7 @@ class QuickStart {
     // Function overloading
     public void setName(int name) {
         System.out.println("Please enter a string not an integer");
+        setName("No Name");
     }
 
     // "main"
