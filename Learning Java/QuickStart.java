@@ -88,7 +88,14 @@ class QuickStart {
             System.out.println(j);
         }
         // other loops being do-while and for loop
+        try {
+            System.out.println(QuickStart.a / 0);
+        } catch (ArithmeticException q) {
+            System.out.println("Divide by zero error");
+        }
+        System.out.println("program flow after try-catch block");
     }
+
 }
 
 class Eg {
@@ -101,7 +108,7 @@ class Eg {
          * and not to any particular object.
          */
         System.out.println(QuickStart.a);
-    }
-    // Creating an object
 
+    }
+    // Creating an objec
 }
