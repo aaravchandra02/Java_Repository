@@ -110,7 +110,7 @@ class Eg {
          * and not to any particular object.
          */
         System.out.println(QuickStart.a);
-
+        System.out.println(example.d);
     }
 
 }
