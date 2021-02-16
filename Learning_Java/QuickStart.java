@@ -106,7 +106,7 @@ class Eg {
         QuickStart example = new QuickStart("John");
         /*
          * Notice that didn't use any instance of QuickStart but still we were able to
-         * access the static variobale as static variables/methods belongs to the class
+         * access the static variable as static variables/methods belongs to the class
          * and not to any particular object.
          */
         System.out.println(QuickStart.a);
