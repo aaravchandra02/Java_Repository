@@ -101,6 +101,7 @@ class QuickStart {
 class Eg {
     //
     void main() {
+        // Creating an object
         QuickStart example = new QuickStart("John");
         /*
          * Notice that didn't use any instance of QuickStart but still we were able to
@@ -110,5 +111,7 @@ class Eg {
         System.out.println(QuickStart.a);
 
     }
-    // Creating an objec
+
 }
+
+// Revise interface
