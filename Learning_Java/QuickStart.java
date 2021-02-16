@@ -1,3 +1,4 @@
+package Learning_Java;
 
 class QuickStart {
     String firstName = "Hello";
