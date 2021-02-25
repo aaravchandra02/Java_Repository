@@ -1,13 +1,13 @@
-package com.aarav_chandra.demo01;
+package com.aaravchandra.site_running_check;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Demo01Application {
+public class SiteRunningCheckApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Demo01Application.class, args);
+		SpringApplication.run(SiteRunningCheckApplication.class, args);
 	}
 
 }

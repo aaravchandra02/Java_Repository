@@ -1,10 +1,10 @@
-package com.aarav_chandra.demo01;
+package com.aaravchandra.site_running_check;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class Demo01ApplicationTests {
+class SiteRunningCheckApplicationTests {
 
 	@Test
 	void contextLoads() {
